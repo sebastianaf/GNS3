@@ -1,0 +1,39 @@
+Apr 21 04:13:03.596 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 21 04:13:03.596 HYPERVISOR: Started on IP = 192.168.1.50, TCP port = 52825.
+Apr 21 04:13:04.084 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 21 04:13:04.085 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\sebas\Desktop\Asignación de Redes\project-files\dynamips 
+Apr 21 04:13:04.096 GENERAL: working_dir=C:\Users\sebas\Desktop\Asignación de Redes\project-files\dynamips
+Apr 21 04:13:04.097 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\sebas\Desktop\Asignación de Redes\project-files\dynamips\0164cbaa-a570-4fcd-8840-33ceaba9cfeb 
+Apr 21 04:13:04.098 GENERAL: working_dir=C:\Users\sebas\Desktop\Asignación de Redes\project-files\dynamips\0164cbaa-a570-4fcd-8840-33ceaba9cfeb
+Apr 21 04:13:04.098 HYPERVISOR: exec_cmd: vm create R2 2 c3725 
+Apr 21 04:13:04.103 VM: VM R2 created.
+Apr 21 04:13:04.104 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5021 
+Apr 21 04:13:04.105 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Apr 21 04:13:04.105 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Apr 21 04:13:04.107 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Apr 21 04:13:04.109 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/sebas/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Apr 21 04:13:04.109 HYPERVISOR: exec_cmd: c3725 set_mac_addr R2 c202.1748.0000 
+Apr 21 04:13:04.114 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Apr 21 04:13:04.114 HYPERVISOR: exec_cmd: vm set_ram R2 192 
+Apr 21 04:13:04.115 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 16 WIC-1T 
+Apr 21 04:13:08.043 HYPERVISOR: exec_cmd: nio create_udp udp-4e55edef-178e-4758-b2a1-d460975ede50 10016 127.0.0.1 10017 
+Apr 21 04:13:08.306 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-4e55edef-178e-4758-b2a1-d460975ede50 
+Apr 21 04:13:08.307 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 21 04:13:08.385 HYPERVISOR: exec_cmd: nio create_udp udp-4cc1a7bc-8bc6-4204-9118-40d8c5714343 10020 127.0.0.1 10021 
+Apr 21 04:13:08.391 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-4cc1a7bc-8bc6-4204-9118-40d8c5714343 
+Apr 21 04:13:08.394 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 21 04:14:09.731 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/sebas/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Apr 21 04:14:40.763 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/sebas/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Apr 21 04:14:51.312 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Apr 21 04:14:51.315 VM: VM Ghost created.
+Apr 21 04:14:51.333 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/sebas/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Apr 21 04:14:51.334 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Apr 21 04:14:51.334 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\sebas\Desktop\Asignación de Redes\project-files\dynamips\c3725-adventerprisek9-mz.124-15.T14.image-192.ghost' 
+Apr 21 04:14:51.335 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 21 04:14:51.347 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Apr 21 04:14:51.347 HYPERVISOR: exec_cmd: vm start R2 
+Apr 21 04:51:48.029 HYPERVISOR: Stopped.
+Apr 21 04:51:48.030 VM: VM Ghost destroyed.
+Apr 21 04:51:48.199 VM: VM R2 shutdown.
+Apr 21 04:51:48.199 VM: VM R2 destroyed.
+Apr 21 04:51:48.211 GENERAL: reset done.

@@ -1,0 +1,15 @@
+memzone_create_file: open: No such file or directory
+dev_create_ram: mmap: No such file or directory
+RAM: unable to create device.
+load_elf_image: invalid load address 0xffffffff80008000
+C3725 'Ghost': failed to load Cisco IOS image 'C:/Users/sebas/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image'.
+memzone_create_file: open: No such file or directory
+dev_create_ram: mmap: No such file or directory
+RAM: unable to create device.
+load_elf_image: invalid load address 0xffffffff80008000
+C3725 'Ghost': failed to load Cisco IOS image 'C:/Users/sebas/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image'.
+memzone_create_file: open: No such file or directory
+dev_create_ram: mmap: No such file or directory
+RAM: unable to create device.
+load_elf_image: invalid load address 0xffffffff80008000
+C3725 'Ghost': failed to load Cisco IOS image 'C:/Users/sebas/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image'.
